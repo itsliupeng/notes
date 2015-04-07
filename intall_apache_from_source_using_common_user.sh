@@ -20,8 +20,8 @@ sudo apt-get -y install g++ unzip
 unzip pcre-8.36.zip
 
 echo "move apr and apr-util to httpd-2.4.12.tar.bz2/srclib/"
-mdkir ~/app_source/httpd-2.4.12/srclib/apr
-mdkir ~/app_source/httpd-2.4.12/srclib/apr-util
+mkdir ~/app_source/httpd-2.4.12/srclib/apr
+mkdir ~/app_source/httpd-2.4.12/srclib/apr-util
 
 mv ~/app_source/apr-1.5.1/* ~/app_source/httpd-2.4.12/srclib/apr/
 mv ~/app_source/apr-util-1.5.4/* ~/app_source/httpd-2.4.12/srclib/apr-util/
